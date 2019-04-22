@@ -1,0 +1,54 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-image {
+  max-height: auto;
+  width: 95vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-details {
+  text-align: center;
+}
+
+.email {
+  margin: 10px;
+}
+
+.google-map {
+  margin-bottom: 20px;
+  width: 100vw;
+  height: 50vh;
+  border: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90vw;
+}
+
+.card-item {
+  margin: 25px 0px;
+}
+
+@media (min-width: 600px) {
+  .contact-image {
+    max-height: 75vh;
+    max-width: 50vw;
+  }
+  .card {
+    flex-direction: row;
+  }
+  .card-item {
+    min-width: 300px;
+  }
+}
