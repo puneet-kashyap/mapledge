@@ -11,7 +11,7 @@ class Footer extends React.Component {
         <footer className="footer">
           {assets.contacts.map((item, index) => {
             return (
-              <div className="footer-item">
+              <div key={index} className="footer-item">
                 <div className="name">{item.name}</div>
                 <div className="contact-option">
                   <a className="phone" href={`tel:${item.phone}`}>

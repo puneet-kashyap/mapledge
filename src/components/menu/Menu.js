@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import './menu.css';
 
 class Menu extends React.Component {
-  menuItem = ['Home', 'Registration', 'Jobs', 'Contact'];
+  menuItem = ['Home', 'Register', 'Jobs', 'Contact'];
   render() {
     return (
       <nav className="menu">
