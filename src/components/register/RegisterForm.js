@@ -1,7 +1,6 @@
 import React from 'react';
 import { Field, Form } from 'redux-form';
 import TextField from '@material-ui/core/TextField';
-import Card from '@material-ui/core/Card';
 import { Button } from '@material-ui/core';
 import { reduxForm } from 'redux-form';
 
@@ -66,9 +65,7 @@ class RegisterForm extends React.Component {
   render() {
     const { handleSubmit, pristine, submitting } = this.props;
     return (
-      <div className="registration">
-        <Card className="registration-card">
-          <h1 className="page-title">Registration</h1>
+      <div>
           <Form onSubmit={handleSubmit(this.onSubmit)}>
             <Field
               name="firstName"
@@ -111,7 +108,6 @@ class RegisterForm extends React.Component {
               Submit
             </Button>
           </Form>
-        </Card>
       </div>
     );
   }

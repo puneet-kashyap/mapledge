@@ -25,7 +25,7 @@ class Home extends React.Component {
         <section className="find">
           {assets.marketing.map((item, index) => {
             return (
-              <div className="marketing">
+              <div className="marketing" key={index}>
                 <h2 className="marketing-name">{item.name}</h2>
                 <p>{item.desc}</p>
                 <h4>{item.slogan}</h4>

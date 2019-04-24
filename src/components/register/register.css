@@ -1,18 +1,27 @@
 .registration {
-  padding: 15px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  background: lavenderblush;
+  padding: 10px;
 }
 
-.page-title {
+.register-title {
   color: #3f51b5;
 }
 
 .registration-card {
   max-width: 500px;
   margin: auto;
+  padding-bottom: 30px;
+}
+
+.register-confirm {
+  padding: 0px 20px;
+}
+
+.register-confirm-brand {
+  padding-top: 20px;
+  text-align: right;
+  font-family: cursive;
+  color: maroon;
 }
 
 .text-field {
