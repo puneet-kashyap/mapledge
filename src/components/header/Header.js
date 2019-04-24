@@ -10,7 +10,7 @@ class Header extends React.Component {
         <header>
           <div className="logo">
             <img className="logo-img" src={logo} alt="Logo" />
-            <h1>Mapledge Staffing</h1>
+            <h1 className="brand">Mapledge Staffing</h1>
           </div>
         </header>
         <Menu />

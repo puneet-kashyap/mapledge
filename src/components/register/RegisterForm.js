@@ -68,7 +68,7 @@ class RegisterForm extends React.Component {
     return (
       <div className="registration">
         <Card className="registration-card">
-          <h1>Registration</h1>
+          <h1 className="page-title">Registration</h1>
           <Form onSubmit={handleSubmit(this.onSubmit)}>
             <Field
               name="firstName"
