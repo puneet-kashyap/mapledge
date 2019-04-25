@@ -3,6 +3,11 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: var(--page-background-color);
+}
+
+.contact-title {
+  color: var(--page-heading-color);
 }
 
 .contact-image {

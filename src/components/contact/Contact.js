@@ -9,7 +9,7 @@ class Contact extends React.Component {
     return (
       <div className="contact">
         <div>
-          <h1 className="page-title">Contact</h1>
+          <h1 className="contact-title">Contact</h1>
           <div className="card">
             {assets.contacts.map((item, index) => {
               return (

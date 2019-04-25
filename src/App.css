@@ -1,3 +1,10 @@
+:root {
+  --page-background-color: lavenderblush;
+  --page-heading-color: #3f51b5;
+  --header-footer-bg-color: #0174bc;
+}
+
+
 .App {
   text-align: center;
 }
@@ -21,13 +28,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
