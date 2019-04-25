@@ -7,6 +7,7 @@ import Home from './components/home/Home';
 import Register from './components/register/Register';
 import './App.css';
 import Contact from './components/contact/Contact';
+import AboutUs from './components/aboutUs/AboutUs';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/home" exact component={Home} />
           <Route path="/register" exact component={Register} />
+          <Route path="/about" exact component={AboutUs} />
           <Route path="/contact" exact component={Contact} />
           <Footer />
         </Router>
