@@ -1,4 +1,7 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+
 import * as about from '../../assets/aboutUs.json';
 import './aboutUs.css';
 
@@ -17,6 +20,15 @@ class AboutUs extends React.Component {
             );
           })}
         </div>
+        <Button
+          component={Link}
+          variant="contained"
+          color="primary"
+          to="/contact"
+          style={{ margin: '50px 0px' }}
+        >
+          Contact Us
+        </Button>
       </div>
     );
   }
