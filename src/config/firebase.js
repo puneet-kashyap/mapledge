@@ -1,6 +1,6 @@
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
-import 'firebase/database';
+import 'firebase/firestore';
 import auth from '../redux/actions/auth.actions';
 
 const firebaseConfig = {
@@ -24,3 +24,4 @@ firebase.auth().onAuthStateChanged(function(user) {
 });
 
 export const authRef = firebase.auth();
+export const dbRef = firebase.firestore();
