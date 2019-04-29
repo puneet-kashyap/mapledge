@@ -3,7 +3,7 @@ import Card from '@material-ui/core/Card';
 
 import RegisterForm from './RegisterForm';
 import RegisterConfirmation from './RegisterConfirmation';
-
+import { authRef } from '../../config/firebase';
 import './register.css';
 
 class Register extends React.Component {
@@ -14,6 +14,18 @@ class Register extends React.Component {
 
   handleSubmit = values => {
     this.setState({ submit: true, name: values.firstName });
+    authRef
+      .createUserWithEmailAndPassword(values.email, values.password)
+      .then(data => {
+        console.log(data);
+        authRef.currentUser.updateProfile({
+          displayName: values.firstName + values.lastName,
+          phoneNumber: values.phone
+        });
+      })
+      .catch(err => {
+        console.log(err);
+      });
   };
 
   render() {

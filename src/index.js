@@ -8,7 +8,7 @@ import rootReducer from './redux/reducers';
 import dotenv from 'dotenv';
 import * as serviceWorker from './serviceWorker';
 
-const store = createStore(rootReducer);
+export const store = createStore(rootReducer);
 dotenv.config();
 
 ReactDOM.render(
