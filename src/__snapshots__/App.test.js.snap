@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders correctly 1`] = `
+<main>
+  <section
+    className="staffing"
+  >
+    <div
+      className="img-block"
+    >
+      <img
+        alt="background"
+        className="title-img"
+        src="main-img.png"
+      />
+    </div>
+    <div
+      className="marketing-block"
+    >
+      <h1
+        className="page-title"
+      >
+        Recruitment & 
+        <br />
+         Staffing solutions
+      </h1>
+      <div>
+        <a
+          className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-containedPrimary-13 MuiButton-raised-15 MuiButton-raisedPrimary-16"
+          href="/about"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <span
+            className="MuiButton-label-2"
+          >
+            Learn more
+          </span>
+          <span
+            className="MuiTouchRipple-root-30"
+          />
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    className="find"
+  >
+    <div
+      className="marketing"
+    >
+      <h2
+        className="marketing-name"
+      >
+        FIND WORK
+      </h2>
+      <p>
+        If you are an Industrial Skilled Trade or General Worker - looking
+            to advance your career or you are a Job Seeker - looking for
+            flexible work schedules or you simply want to make extra money in
+            addition to your main income
+      </p>
+      <h4>
+        YOU CAME TO THE RIGHT PLACE.
+      </h4>
+      <a
+        className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-raised-15"
+        href="/contact"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <span
+          className="MuiButton-label-2"
+        >
+          Contact Us
+        </span>
+        <span
+          className="MuiTouchRipple-root-30"
+        />
+      </a>
+    </div>
+    <div
+      className="marketing"
+    >
+      <h2
+        className="marketing-name"
+      >
+        FIND WORKER
+      </h2>
+      <p>
+        If you are a Business looking for solutions to your Staffing
+            needs, be it a Single Hire for a difficult to fill position or
+            Staffing support of your Contingent Work Force....
+      </p>
+      <h4>
+        YOU CAME TO THE RIGHT PLACE.
+      </h4>
+      <a
+        className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-contained-12 MuiButton-raised-15"
+        href="/contact"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <span
+          className="MuiButton-label-2"
+        >
+          Contact Us
+        </span>
+        <span
+          className="MuiTouchRipple-root-30"
+        />
+      </a>
+    </div>
+  </section>
+</main>
+`;

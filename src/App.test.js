@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import Home from './components/home/Home';
+import renderer from 'react-test-renderer';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+
+it('Home component renders correctly', () => {
+  const tree = renderer.create(<Router><Home/></Router>).toJSON();
+  expect(tree).toMatchSnapshot();
+})
+
+
