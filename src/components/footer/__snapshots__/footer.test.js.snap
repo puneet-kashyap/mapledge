@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders correctly 1`] = `
+Array [
+  <footer
+    className="footer"
+  >
+    <div
+      className="footer-item"
+    >
+      <div
+        className="name"
+      >
+        Neeraj Tara
+      </div>
+      <div
+        className="contact-option"
+      >
+        <a
+          className="phone"
+          href="tel:+1-306-999-5295"
+        >
+          +1-306-999-5295
+        </a>
+      </div>
+      <div
+        className="contact-option"
+      >
+        <a
+          className="email"
+          href="mailto:neerajtara18@gmail.com"
+        >
+          neerajtara18@gmail.com
+        </a>
+      </div>
+    </div>
+    <div
+      className="footer-item"
+    >
+      <div
+        className="name"
+      >
+        Varun Tara
+      </div>
+      <div
+        className="contact-option"
+      >
+        <a
+          className="phone"
+          href="tel:+1-306-999-5295"
+        >
+          +1-306-999-5295
+        </a>
+      </div>
+      <div
+        className="contact-option"
+      >
+        <a
+          className="email"
+          href="mailto:taravarun@gmail.com"
+        >
+          taravarun@gmail.com
+        </a>
+      </div>
+    </div>
+  </footer>,
+  <div
+    className="footer-below"
+  >
+    <div>
+      Copyright © 
+      Mapledge Staffing
+       
+      2019
+    </div>
+    <div>
+      Built with
+       
+      <span
+        aria-label="heart"
+        role="img"
+      >
+        💖
+      </span>
+      by the
+      <a
+        href="mailto:neerajtara18@gmail.com"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Kashyap
+      </a>
+      team
+    </div>
+  </div>,
+]
+`;

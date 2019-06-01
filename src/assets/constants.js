@@ -2,14 +2,14 @@ const assets = {
   companyName: 'Mapledge Staffing',
   contacts: [
     {
-      name: 'Neeraj Tara',
+      name: 'Inquiries',
       phone: '+1-306-999-5295',
-      email: 'neerajtara18@gmail.com'
+      email: 'info@mapledge.ca'
     },
     {
-      name: 'Varun Tara',
+      name: 'Human Resource',
       phone: '+1-306-999-5295',
-      email: 'taravarun@gmail.com'
+      email: 'hr@mapledge.ca'
     }
   ],
   marketing: [
