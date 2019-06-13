@@ -11,7 +11,7 @@ Array [
       <div
         className="name"
       >
-        Neeraj Tara
+        Inquiries
       </div>
       <div
         className="contact-option"
@@ -28,9 +28,9 @@ Array [
       >
         <a
           className="email"
-          href="mailto:neerajtara18@gmail.com"
+          href="mailto:info@mapledge.ca"
         >
-          neerajtara18@gmail.com
+          info@mapledge.ca
         </a>
       </div>
     </div>
@@ -40,7 +40,7 @@ Array [
       <div
         className="name"
       >
-        Varun Tara
+        Human Resource
       </div>
       <div
         className="contact-option"
@@ -57,9 +57,9 @@ Array [
       >
         <a
           className="email"
-          href="mailto:taravarun@gmail.com"
+          href="mailto:hr@mapledge.ca"
         >
-          taravarun@gmail.com
+          hr@mapledge.ca
         </a>
       </div>
     </div>
@@ -84,7 +84,7 @@ Array [
       </span>
       by the
       <a
-        href="mailto:neerajtara18@gmail.com"
+        href="mailto:info@mapledge.ca"
         style={
           Object {
             "color": "white",
